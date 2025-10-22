@@ -40,7 +40,7 @@ You should see a `greeter.jar` file in the project’s root folder.
 ### 2. Run the JAR file
 Run the following command to execute the JAR file:
 ```bash
-java -jar greeter.jar
+java -jar MyProgram.jar
 ```
 You should see the same output as before:
 
