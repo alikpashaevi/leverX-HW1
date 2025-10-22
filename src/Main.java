@@ -1,8 +1,12 @@
-import example.GreeterImpl;
+import example.Playlist;
+
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        GreeterImpl greeter = new GreeterImpl();
-        greeter.greetLecturer("Tim");
+        List<String> songs = List.of("Blinding lights", "Smooth Criminal", "Monster");
+        Playlist p1 = new Playlist("My Mix", songs);
+
+        p1.playAll();
     }
 }
