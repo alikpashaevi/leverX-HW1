@@ -28,12 +28,14 @@ You should see the following output:
 
 ## Building an Executable JAR File
 
-### 1. Create a JAR file
+### 1. Create a JAR file (If you already have it, skip to the next step)
+**Note:** if you cloned this repository, you should already have the JAR file in the projects root folder.
+
 Run the following command to create an executable JAR file:
 ```bash
-jar cfe greeter.jar Main -C out .
+jar cfe MyProgram.jar Main -C out .
 ```
-You should see a `greeter.jar` file in the project’s root folder.
+You should see a `MyProgram.jar` file in the project’s root folder.
 
 ![img_2.png](img_2.png)
 
