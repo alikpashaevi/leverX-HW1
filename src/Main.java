@@ -12,10 +12,11 @@ public class Main {
         p1.getShowInfo().action();
 
         System.out.println("Playing All Songs");
-        p1.playAll();
+        p1.getPlayAll().action();
 
-//        System.out.println("Playing a Song Using Functional Interface");
-//        p1.getExternalSongPlayer().playSong("gangnam style", "psy");
+
+        System.out.println("Playing a Song with Functional Interface");
+        p1.getPlaySong().playSong("Peaches", "Justin Bieber");
 
     }
 }

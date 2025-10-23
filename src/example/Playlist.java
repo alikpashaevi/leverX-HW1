@@ -40,4 +40,8 @@ public class Playlist {
         }
     };
 
+    FunctionalSongPlayer playSong = (title, artist) -> {
+        System.out.println("Playing: " + title + " by " + artist);
+    };
+
 }
